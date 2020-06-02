@@ -66,6 +66,3 @@ end
 if exists("Prompt Peace", "trigger") == 0 then
   permRegexTrigger("Prompt Peace", "Prompts",{"[^\[(\d+)%\]]\>\s"},[[fightstate = 0;]])
 end
-
-
---^(north|east|west|south|up|down)(\s+)\-(.*)$
